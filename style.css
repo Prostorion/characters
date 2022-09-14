@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#constructor {
+    box-sizing: inherit;
+    width: 20%;
+    height: 50%;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    box-sizing:inherit;
+    width: 20%;
+    height: 50vh;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey; 
+}
+
+.person img {
+    max-height: 60%;
+    max-width: 80%
+}
+#add-b {
+    margin: 10px;
+}
